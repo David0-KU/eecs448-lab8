@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+body{background-image: url(https://ca-times.brightspotcdn.com/dims4/default/7c1fcc5/2147483647/strip/true/crop/2047x1151+0+0/resize/1486x836!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc8%2F25%2F7fbbd2d99e06c9906929b13fa9a3%2Fla-1560150801-vut8v2ey4u-snap-image); background-size: 100%;
+background-repeat: no-repeat;}
+
+body{background-color: rgb(0,0,0);}
+h1{background-color: rgb(30,30,30);
+font-family: "Lucida Console", "Courier New", monospace;
+color:rgb(250,250,250);
+font-size: 6vw;}
+p:hover{background-color: rgb(150,150,150);
+font-family: "Lucida Console", "Courier New", monospace;
+color:rgb(30,30,30);
+font-size: 15pt;}
+p{background-color: rgb(30,30,30);
+font-family: "Lucida Console", "Courier New", monospace;
+color:rgb(250,250,250);
+font-size: 15pt;}
+p.gold:hover{background-color: rgb(255,233,0);
+font-family: "Lucida Console", "Courier New", monospace;
+color:rgb(30,30,30);
+font-size: 15pt;}
+p.gold{background-color: rgb(30,30,30);
+font-family: "Lucida Console", "Courier New", monospace;
+color:rgb(250,250,250);
+font-size: 15pt;}
+
+</style>
+
+
+<h1 id="myHeader">André De Shields </h1>
+
+<img id="slides" src="https://www.onassis.org/cms/images/92B-W6vNW_Y5U4GJWhVdSmI-N_s=/7215/width-1280/Andre_De_Shields_portrait_Lia_chang.jpg" style="width:100%;height:100%;">
+
+<p>
+<br>
+André De Shields is a being who emanates power, grace, and style. Every word said with purpose. Every action done with intent. André is 3/4ths of the way to an EGOT, only missing an Oscar. He has 3 rules ro live by in order to succeed. 
+<br><br>
+1. Surround yourself with people whose eyes light up when they see you coming.<br><br>
+
+2. Slowly is the fastest way to get to where you want to be.<br><br>
+
+3. The top of one mountain is the bottom of the next, so keep climbing.<br><br><br>
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7T7spie0R7w" title="YouTube video player" frameborder="10" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p class="gold">Personal Website: <a href="https://www.andredeshields.com/">www.andredeshields.com</a></p>
+<br>
+
+<p class="gold">IBDB: <a href="https://www.ibdb.com/broadway-cast-staff/andr-de-shields-4130">www.ibdb.com/broadway-cast-staff/andr-de-shields-4130</a></p>
+<br>
+
+<p class="gold">IMDB: <a href="https://www.imdb.com/name/nm0211559/">imdb.com/name/nm0211559/</a></p>
+
+
+
+
+<script>
+
+</script>
+
+</body>
+</html>
+
 
