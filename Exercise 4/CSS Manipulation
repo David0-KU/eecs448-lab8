@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+p{border-style: solid;}
+</style>
+
+<h1 id="myHeader">CSS Manipulation </h1>
+
+<p id="one">
+The meanest dog you'll ever meet<br>
+He ain't the hound dog in the street<br>
+He bares some teeth and tears some skin but brother
+That's the worst of him<br>
+The dog you really got to dread is the one that howls inside your head<br>
+It's him whose howling drives men mad<br>
+And a mind to its undoing<br><br>
+
+You got a lonesome road to walk<br>
+And it ain't along the railroad tracks<br>
+It ain't along the blacktop tar you've walked a hundred times before<br>
+I'll tell you where the real road lies<br>
+Between your ears, behind your eyes<br>
+That is the path to paradise<br>
+And likewise the road to ruin<br><br>
+</p>
+
+<label for="border">Border:</label><br>
+<label for="border">Red Value (00-FF):</label><br>
+<input type="text" id="boardred" name="boardred"><br><br>
+<label for="border">Blue Value (00-FF):</label><br>
+<input type="text" id="boardblue" name="boardblue"><br><br>
+<label for="border">Green Value (00-FF):</label><br>
+<input type="text" id="boardgreen" name="boardgreen"><br><br>
+<label for="border">Width (int):</label><br>
+<input type="text" id="boardwidth" name="boardwidth"><br><br><br><br>
+
+<label for="background">Background:</label><br>
+<label for="background">Red Value (00-FF):</label><br>
+<input type="text" id="backred" name="backred"><br><br>
+<label for="background">Blue Value (00-FF):</label><br>
+<input type="text" id="backblue" name="backblue"><br><br>
+<label for="background">Green Value (00-FF):</label><br>
+<input type="text" id="backgreen" name="backgreen"><br><br>
+
+<button onclick="update()">Update</button>
+
+<script>
+
+
+
+function update() {
+document.getElementById("one").style.borderColor =("#"+String(document.getElementById("boardred").value)+String(document.getElementById("boardblue").value)+String(document.getElementById("boardgreen").value)); 
+
+document.getElementById("one").style.borderWidth = String(document.getElementById("boardwidth").value)+"px";
+
+document.getElementById("one").style.backgroundColor =("#"+String(document.getElementById("backred").value)+String(document.getElementById("backblue").value)+String(document.getElementById("backgreen").value)); 
+}
+
+</script>
+
+</body>
+</html>
 
