@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="myHeader">Slide show </h1>
+
+<h2 id="check">0</h2>
+
+<button onclick="previous()">Previous</button>
+<button onclick="next()">Next</button>
+
+
+
+
+<script>
+var currentphoto=0;
+var maxphotos=6;
+function previous() {
+	currentphoto=(currentphoto+maxphotos-1)%maxphotos;
+    document.getElementById("check").innerHTML = currentphoto;
+}
+
+function next() {
+	currentphoto=(currentphoto+1)%maxphotos;
+    document.getElementById("check").innerHTML = currentphoto;
+}
+</script>
+
+</body>
+</html>
+
 
